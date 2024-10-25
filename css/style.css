@@ -1,0 +1,115 @@
+:root {
+  --or: #938372;
+  --noir: #141618;
+  --blanc: #fff;
+  --jaune: goldenrod;
+}
+
+html {
+  background-color: var(--noir);
+}
+
+body {
+  font-family: "Khand", sans-serif;
+  color: var(--blanc) !important;
+  font-size: 1.1em;
+}
+
+.column {
+  padding: 0px !important;
+  margin-right: 0.75rem !important;
+  margin-left: 0.75rem !important;
+}
+
+#bandeau {
+  padding: 0.75rem;
+}
+
+#intro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  color: var(--blanc) !important;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: var(--blanc) !important;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#titre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2.25rem !important;
+  margin-bottom: 2rem;
+}
+
+h2.title {
+  margin-top: 3.5rem;
+  margin-bottom: 0.4rem !important;
+  color: var(--jaune) !important;
+}
+
+.sous-h2 {
+  color: var(--jaune) !important;
+  font-size: 0.9em;
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.plat {
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 2rem;
+  margin-top: 0.75rem;
+  border-top: 1px dotted #ccc;
+}
+
+.plat div:first-of-type p::first-letter,
+.parfum p::first-letter {
+  text-transform: uppercase;
+}
+
+.plat div:first-of-type p:last-of-type,
+.parfum p:last-of-type {
+  font-size: 0.9em;
+  color: var(--or);
+}
+
+.plat div:last-of-type {
+  white-space: nowrap; /** Empêche l'€ de descendre à la ligne */
+}
+
+#legende {
+  margin-top: 4rem;
+  font-size: 0.9em;
+  color: var(--or);
+  text-align: center;
+}
+
+#dsi-com {
+  font-size: 0.8em;
+  margin: 6rem 0px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#dsi-com img {
+  height: 5vh;
+  width: auto;
+}
